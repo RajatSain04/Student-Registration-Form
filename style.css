@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Outer wrapper for grey background and centering */
+.outer-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White card in the center */
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Balance display */
+.balance {
+  font-size: 40px;
+  color: green;
+  margin-bottom: 40px;
+}
+
+/* Common button styles */
+.btn {
+  width: 100%;
+  padding: 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Deposit button */
+.deposit {
+  background-color: #28a745;
+}
+
+.deposit:hover {
+  background-color: #218838;
+}
+
+/* Withdraw button */
+.withdraw {
+  background-color: #dc3545;
+}
+
+.withdraw:hover {
+  background-color: #c82333;
+}
